@@ -15,6 +15,7 @@ RUN apk add --no-cache --virtual=.build-deps \
     musl-dev \
     openjdk8 \
     zip \
+    libarchive \
     unzip \
     \
     && ln -s /usr/lib/jvm/java-1.8-openjdk/bin/javac /usr/bin \
