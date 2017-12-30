@@ -9,9 +9,7 @@ ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk
 RUN apk add --no-cache --virtual=.build-deps \
     wget \
     python \
-    python-dev \
     bash \
-    musl-dev \
     openjdk8 \
     zip \
     libarchive \
